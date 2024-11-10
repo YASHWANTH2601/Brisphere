@@ -1,0 +1,20 @@
+.footerContainer {
+  margin-top: 50px;
+  width: 100%;
+  background-color: rgb(238, 234, 234);
+  padding: 30px;
+  line-height: 70%;
+}
+
+.footerHeading {
+  font-weight: 500;
+}
+
+.locationBtn {
+  padding: 20px 40px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  background-color: rgba(24, 90, 128, 0.993);
+}

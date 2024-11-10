@@ -1,0 +1,121 @@
+.homeImg {
+  width: 500px;
+  height: 300px;
+  margin-top: 30px;
+}
+.homeContainer {
+  height: 80vh;
+}
+
+.homeFirstContainer {
+  position: relative;
+  width: 500px;
+  background-color: rgb(238, 234, 234);
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+}
+.homeHeading {
+  font-size: 30px;
+  font-weight: 600;
+}
+.homePara {
+  font-size: 15px;
+  font-weight: 500px;
+}
+.icons {
+  margin-right: 20px;
+}
+
+.homeSecondContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  width: 490px;
+  height: 180px;
+  top: 560px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.checkDate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.check1 {
+  text-align: center;
+}
+
+.homeButtons {
+  border: none;
+  background: transparent;
+}
+.bookButton {
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: rgba(24, 90, 128, 0.993);
+}
+
+.count {
+  margin: 0px;
+}
+.dateInput {
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .homeContainer {
+    padding: 40px;
+    height: 60vh;
+  }
+  .homeFirstContainer {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .leftContainer {
+    padding: 50px;
+    align-self: flex-start;
+  }
+  .homeImg {
+    margin: 0px;
+    width: 400px;
+  }
+  .socialMediaIcons {
+    margin-left: 0px;
+  }
+  .homeSecondContainer {
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+    width: 800px;
+
+    top: 390px;
+    /* left: 300px; */
+    transform: translate(-50%, -50%);
+  }
+  .checkDate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .check1 {
+    text-align: center;
+    margin-right: 80px;
+  }
+}
